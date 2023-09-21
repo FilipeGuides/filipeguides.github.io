@@ -1,0 +1,43 @@
+TEMA: Página para um grupo de músicos chamado "Musicality".
+
+OBS: Site está em inglês, creio que o texto do site em si não importe, mas
+se precisar eu posso só traduzir e remandar.
+
+INICIANDO:
+Pesquisei e baixei alguns templates para basear meu trabalho em, seguindo
+desenvolvedores mais experientes. Após olhar os documentos baixados, decidi
+basear o meu trabalho em um site sobre música, um assunto que tenho relativa
+familiaridade em.
+
+Minha decisão foi de fazer o site totalmente em inglês, já que se fosse
+algo "real" alcançaria assim um público maior e o estilo musical do qual
+eu iria tratar ser mais conhecido no exterior.
+
+O NOME E O DESIGN:
+Seguindo o assunto escolhido, decidi nomear o site como "Musicality", sig-
+nificando "Musicalidade". Escolhi o nome pela pronúncia fácil e memorável,
+além de trazer à tona imediatamente o tema "música", parte principal do pro-
+jeto.
+
+O local escolhido foi um aleatório. Decidi fazer algo relacionado à um grupo
+de músicos de diversas áreas organizados numa "banda" de mesmo nome do site,
+decidi por um grupo de músicos da parte mais "elitista" da música, como jazz,
+clássica, tango, et cetera.
+
+Editei duas imagens do google e fiz um banner básico pelo photoshop e editei
+o background para deixá-lo mais coerente com o banner. Coloquei um slide auto-
+mático no centro mostrando os músicos mais conhecidos, como parte do sobre nós,
+e diversas outras informações que podem ser vistas na página.
+
+O SITE:
+Minha primeira ideia foi um blog, mas decidi fazer algo mais simples como
+só a página para um grupo de músicos, aonde estaria o contato e uma intro-
+dução destes, assim como datas para os eventos próximos,
+contato de músicos que poderiam ser contratados, e uma newsletter sobre
+música aonde o usuário cadastraria seu e-mail para receber informações do
+grupo, dicas sobre arranjos musicais, descontos em aulas, entre outros.
+
+O site ficou básico, mas creio que um grupo de músicos de médio/pequeno
+porte não necessite de mais nada. Coloquei cerca de cinco funções no site,
+várias linhas de CSS (que bugam quando tiro o zoom da tela, mas ok), e várias
+tags de HTML.

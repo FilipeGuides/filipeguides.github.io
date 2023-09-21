@@ -1,0 +1,195 @@
+        /* Parte do banner, procurei imagens ilustradas de músicos clássicos e mesclei. */
+
+        .banner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            width: 100%;
+            max-width: 100%;
+            line-height: 0;
+        }
+
+        /* Fim da parte do banner. */
+
+        /* Parte do menu de navegação da página. Prefiro usar porcentagem para não ficar bugado em telas de outros tamanhos, se dá certo, eu não sei. */
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 20px;
+            padding: 30px 30px;
+            background: black;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .menu a {
+            transition: color 0.3s ease; /* Para dar um efeito quando o usuário colocar o mouse em cima de um link. */
+            color: white;
+            padding: 35px 20px;
+            text-decoration: none; /* Remove a barra inferior dos links. */
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            background: linear-gradient(to bottom, rgba(61, 40, 7, 0.5) 0%, rgba(61, 40, 7, 0.5) 100%), url("../Musicality/imagens/BGeditado.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+        }
+
+        .centro { /* Centraliza o conteúdo e deixa as partes laterais "abertas" para o background da parte central do site. */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 40px 80px;
+            font-size: 20px;
+            color: #d4d4d4;
+            background-color: black;
+            margin: 0 0;
+            margin-left: 450px;
+            margin-right: 450px;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #about {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 20px;
+            padding: 30px 30px;
+            background: black;
+        }
+
+        .newsform {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 0px 200px;
+            line-height: 1.6;
+        }
+
+        .formline {
+            display: flex;
+            flex-direction: right;
+            text-align: left;
+        }
+
+        /* Style para as seções */
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 20px;
+            padding: 30px 30px;
+            background: black;
+            color: white;
+            text-align: center;
+        }
+
+        /* Área dos artistas */
+        .imgtext {
+        margin: 100px;
+        }
+
+        /* Estilo do footer */
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 20px;
+            padding: 30px 30px;
+            background: black;
+            color: white;
+            width: 100%; /* Para as laterais ficarem pretas. */
+        }
+
+        /* CSS das tabelas (artists.html e events.html). */
+        .table-container {
+            max-width: 1200px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            background-color: black;
+            text-align: left;
+            padding: 15px;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: black;
+            color: white;
+        }
+        /* Quando coloca o mouse em cima. */
+        tr:hover {
+            background-color: #ddd;
+            cursor: pointer;
+        }
+
+        /* Botão do dropdown. */
+        .dropbtn {
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropbtn:hover, .dropbtn:focus {
+            background-color: white;
+            color: black;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Aqui está o conteúdo que aparece quando o botão é clicado. */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            color: black;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {background-color: #ddd;}
+
+        /* Aqui é o que acontece quando o botão é clicado, trocando o display por "block" ao invés de "none", fazendo assim a info aparecer. */
+        .show {display:block;} 
